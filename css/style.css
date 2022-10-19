@@ -68,6 +68,10 @@ body{
     padding: 5px;
     width: calc(100% - 20px);
     margin: auto;
+
+}
+.body p a{
+    color: white;
 }
 .body ul{
     margin-left: 50px;
@@ -75,3 +79,4 @@ body{
 .body small{
     text-align: center;
 }
+
