@@ -7,29 +7,68 @@
 body{
     background: rgb(17, 17, 53);
     width: 100%;
-    min-width: 710px;
+    min-width: 754px;
 }
 
 /* menu and list style */
 .header{
     background: rgb(98, 98, 248);
+    width: 100%;
+    display: block;
+}
+.icon{
+    top: 0;
+    left: 0;
+    position: absolute;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 17, 53);
+}
+.icon p{
+    margin: 5px;
+    padding: 5px;
 }
 .menu{
-
+    display: block;
 }
 .menu ul{
     display: flex;
     list-style: none;
-    width: 60%;
+    margin: auto 0 auto auto;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
 }
 .menu li{
-    margin: 5px;
-    padding: 5px;
-    background: chartreuse;
-    border-radius: 2px;
+    
 }
 .menu a{
     text-decoration: none;
     color: rgb(251, 255, 0);
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    background: rgb(0, 113, 165);
+    border-radius: 2px;
+    border-right: solid white 5px;
+}
+.menu li.active a, .menu li a:hover{
+    background: rgb(17, 17, 53);
 }
 /*Body Div*/
+.body{
+    color: white;
+}
+.body h1, .body h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.body p{
+    background: blue;
+    padding: 5px;
+    width: calc(100% - 20px);
+    margin: auto;
+}
+.body ul{
+    margin-left: 50px;
+}
