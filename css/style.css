@@ -79,7 +79,9 @@ body{
 .body small{
     text-align: center;
 }
-
+.body ol{
+    margin-left: 50px;
+}
 /* card section */
 .card{
     width: 80%;
