@@ -80,3 +80,29 @@ body{
     text-align: center;
 }
 
+/* card section */
+.card{
+    width: 80%;
+    margin: 10px auto 10px  auto ;
+    max-width: 300px;
+    border: 2px solid blue;
+    background: blue;
+    border-radius: 5px;
+}
+.card img{
+    width: 100%;
+}
+.card ul{
+    display: flex;
+    list-style: none;
+}
+.card li{
+    margin-left: 5px;
+}
+.card a{
+    color: white;
+    text-decoration: none;
+}
+.card h4{
+    margin-left: 5px;
+}
