@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(17, 17, 53);
+    width: 100%;
+    min-width: 710px;
+}
+
+/* menu and list style */
+.header{
+    background: rgb(98, 98, 248);
+}
+.menu{
+
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+}
+.menu li{
+    margin: 5px;
+    padding: 5px;
+    background: chartreuse;
+    border-radius: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(251, 255, 0);
+}
+/*Body Div*/
